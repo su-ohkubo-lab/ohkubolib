@@ -1,0 +1,12 @@
+# MacOS
+.DS_Store
+
+# Environments
+env
+venv
+.env
+.venv
+
+# Python
+__pycache__
+*.py[cod]
