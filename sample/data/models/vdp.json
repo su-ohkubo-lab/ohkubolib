@@ -1,0 +1,14 @@
+{
+    "__type__": "SDEModelInfo",
+    "__fields__": {
+        "type": "NoisyVanDerPol",
+        "name": "vdp",
+        "dim": 2,
+        "params": {
+            "epsilon": 1.0,
+            "nu11": 0.0,
+            "nu22": 0.0
+        },
+        "is_ode": true
+    }
+}
