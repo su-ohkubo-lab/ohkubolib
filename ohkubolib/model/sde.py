@@ -4,7 +4,6 @@ from functools import cached_property
 from typing import Any
 
 import sympy
-from IPython.display import Math, display
 
 import ohkubolib.datamodel as dm
 
@@ -151,6 +150,8 @@ class SDEModel:
 
 
     def print_model(self) -> None:
+        from IPython.display import Math, display
+
         print(self.info.name, '(ODE)' if self.info.is_ode else '(SDE)')
 
         sympy.init_printing()
@@ -165,6 +166,8 @@ class SDEModel:
 
 
     def print_subs_model(self) -> None:
+        from IPython.display import Math, display
+
         print(self.info.type, '(ODE)' if self.info.is_ode else '(SDE)')
         print('name:', self.info.name)
 
