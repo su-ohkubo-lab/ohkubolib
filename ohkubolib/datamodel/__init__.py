@@ -1,6 +1,6 @@
 from dataclasses import replace
 
-import lib.datamodel.serde
+import ohkubolib.datamodel.serde
 
 from .cfg import global_config
 from .core import (
