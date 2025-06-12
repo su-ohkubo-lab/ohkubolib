@@ -1,3 +1,6 @@
 numpy
 scipy
 scikit-learn
+sympy
+typing_extensions
+pydantic

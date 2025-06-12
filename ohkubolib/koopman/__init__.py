@@ -1,6 +1,8 @@
 from ohkubolib.koopman.dictionaries import (
     Dictionary,
-    Monomial
+    StateDictionary,
+    Monomial,
+    KronMonomial
 )
 
 from ohkubolib.koopman.edmd import (
@@ -13,4 +15,10 @@ from ohkubolib.koopman.gedmd import (
 
 from ohkubolib.koopman.lifting import (
     Lifting
+)
+
+from ohkubolib.koopman.dual import (
+    create_operator,
+    Dual,
+    DualKoopman
 )
